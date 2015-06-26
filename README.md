@@ -6,7 +6,8 @@ Python Tkinter silent alarm to give kids a green light to wake up (or a red ligh
 
 ## Usage
 
-Just set the bed and wake times and hit submit.
+- Just set the bed and wake times and hit submit.
+- Tested with Python 2.7
 
 ## Future Development
 
