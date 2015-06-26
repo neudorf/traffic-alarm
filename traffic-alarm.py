@@ -97,8 +97,8 @@ class trafficLight():
             start = time(int(self.start_hour.get()),int(self.start_minute.get()),0)
             end = time(int(self.end_hour.get()),int(self.end_minute.get()),0)
         except ValueError as e:
-            messagebox.showerror(title = 'ValueError',
-                                         message = ('Invalid time range\nBed Time: {}\nWake Time: {}\n').format(start, end))
+            tkMessageBox.showerror(title = 'ValueError',
+                                message = ('Invalid time range\nBed Time: {}\nWake Time: {}\n').format(start, end))
             self.start_hour.set(20)
             self.start_minute.set(0)
             self.end_hour.set(6)
