@@ -6,7 +6,7 @@ Silent alarm to give kids a green light to wake up (or a red light to go back to
 
 ## Usage
 
-- Just set the bed and wake times and hit submit.
+- Just set the bed and wake times.
 - Tested with Python 2.7 for the Tkinter version
 - Offline web app designed for IOS
     1. Host on a server of your choice
