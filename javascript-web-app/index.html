@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--<html manifest="/cache.manifest">-->
+<html>
+    <head>
+    	<title>Traffic Alarm</title>
+        <link rel="stylesheet" type="text/css" href="jquery.datetimepicker.css"/ >
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+        <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"/>-->
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.datetimepicker.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+    <h2>Traffic Light Alarm</h2>
+		<form name="input">
+            Bed Time: <input type="text" id="bedTimeInput" value="20:00"/>
+            Wake Time: <input type="text" id="wakeTimeInput" value="06:00"/>
+		</form>
+		<!--<div id="button">Update!</div>-->
+		<br/>
+		<div class="trafficLight">
+            <img id="stoplight" src="stoplightRed.png"/>
+        </div>
+	</body>
+</html>

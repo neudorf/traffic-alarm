@@ -1,0 +1,39 @@
+body {
+    background-color:#000000;
+}
+
+h2 {
+    font-family:arial;
+    color:#ffffff;
+    text-align:center;
+}
+
+form {
+    display: inline-block;
+    color: #ffffff;
+    text-align:center;
+}
+
+input {
+    width: 20%;
+    height: 25%;
+    font-size:150%;
+}
+
+#button{
+    display: inline-block;
+    height:20px;
+	width:70px;
+	background-color:#cccccc;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+}
+
+.list {
+	font-family:garamond;
+	color:#cc0000;
+}
