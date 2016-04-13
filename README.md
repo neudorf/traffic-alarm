@@ -1,4 +1,4 @@
-# traffic-alarm
+# Traffic Alarm
 
 ![Image Alt](javascript-web-app/stoplightGreen.png)
 
