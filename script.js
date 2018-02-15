@@ -16,11 +16,11 @@ function update(){
     }
     //console.log("now="+now+"bedTime="+bedTime+"wakeTime="+wakeTime)
     if(bed){
-        document.getElementById("stoplight").src="stoplightRed.png";
+        document.getElementById("stoplight").src="javascript-web-app/stoplightRed.png";
         console.log("Bedtime? True");
     }
     else{
-        document.getElementById("stoplight").src="stoplightGreen.png";
+        document.getElementById("stoplight").src="javascript-web-app/stoplightGreen.png";
         console.log("Bedtime? False");
     }
 };
