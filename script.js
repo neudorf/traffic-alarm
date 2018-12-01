@@ -4,7 +4,8 @@ function update(){
     var wakeHour = parseInt($('#wakeTimeInput').val().slice(0,2));
     var bedMin = parseInt($('#bedTimeInput').val().slice(3,5));
     var wakeMin = parseInt($('#wakeTimeInput').val().slice(3,5));
-    console.log("bedHour: " + bedHour + "wakeHour: "+wakeHour+"bedMin: "+ bedMin + "wakeMin: "+wakeMin + '\n' + "now Hour: " + now.getHours() + "now Minute: "+now.getMinutes())
+    var bed = true;
+    //console.log("bedHour: " + bedHour + "wakeHour: "+wakeHour+"bedMin: "+ bedMin + "wakeMin: "+wakeMin + '\n' + "now Hour: " + now.getHours() + "now Minute: "+now.getMinutes())
     if (bedHour > wakeHour){ //night time, sleeping overnight
             bed = !(((now.getHours() < bedHour) && (now.getHours() > wakeHour)) || (now.getHours()==bedHour && now.getMinutes() < bedMin) || (now.getHours()==wakeHour && now.getMinutes() >= wakeMin));
     }
