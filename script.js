@@ -15,6 +15,9 @@ function update(){
     else if (bedHour == wakeHour){ //nap time, sleeping during the day
             bed = (now.getMinutes() >= bedMin && now.getMinutes() < wakeMin);
     }
+    else{
+        bed = true;
+    }
     //console.log("now="+now+"bedTime="+bedTime+"wakeTime="+wakeTime)
     if(bed){
         document.getElementById("stoplight").src="javascript-web-app/stoplightRed.png";
